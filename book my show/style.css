@@ -1,0 +1,154 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.fnav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding:6px ;
+   padding: auto;
+    color: white;
+    background-color: rgb(42,42,68);
+}
+.fnav .left{
+    display: flex;
+    margin-top: 10PX;
+    
+}
+.left img{
+    
+    
+    width: 200px;
+    height: 50px; ;
+    
+}
+.left input{
+    size: 50px;
+    margin-inline: 11px;
+    width: 420px;
+    text-align: center;
+    height: 33px;
+    border: none;
+    margin-top: 16px;
+    border-radius: 2px;
+    padding-left: 89px;
+}
+.fnav .right{
+    display: flex;
+    margin-top: 11px;
+    
+}
+.right p{
+    margin-inline: 22px;
+    font-size: 22px;
+}
+.right button{
+    margin-inline: 22px;
+    width: 50px;
+    height: 25px;
+    border: none;
+    border-radius: 2px;
+    color: red;
+}
+.right i{
+    margin-inline: 22px;
+    font-size: 22px;
+    color: white;
+}
+.snav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 11px;
+    background-color:rgb(26,26,48) ;
+}
+.snav p:hover{
+    color: pink;
+    cursor: pointer;
+    font-weight: 600;
+}
+.snav .s-left{
+    display: flex;
+
+}
+.snav .s-right{
+    display: flex;
+
+    
+}
+.s-left p{
+    margin-inline: 18px;
+    color: white;
+}
+.s-right p{
+    margin-inline: 18px;
+    color: white;
+}
+.main img{
+    width: 100%;
+}
+.container {
+    text-align: center;
+    padding: 22px;
+}
+.container h2{
+    color: white;
+}
+.container .cards{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.cards img{
+    width: 18%;
+    margin-block: 15px;
+    border-radius: 5px;
+}
+.banner{
+    width: 100%;
+    margin-top: 29px;
+    margin-bottom: 29px;
+}
+.shows {
+    text-align: center;
+    padding: 22px;
+}
+.shows h2{
+    color: white;
+}
+.shows .cards1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.cards1 .img{
+    width: 15%;
+    margin-block: 15px;
+    border-radius: 5px;
+}
+.premiere{
+    background-color: rgb(8,8,19);
+    color: white;
+    padding: 33px;
+    margin-bottom: 44px;
+    margin-top: 44px;
+}
+.container .cards{
+    margin-top: 11px;
+}
+.footer{
+    background-color: rgb(227, 218, 218);
+    padding: 33px;
+    margin-top: 44px;
+}
+.footer .icon{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+}
+.icon{
+    margin-inline: 22px;
+    font-size: 25px;
+}
